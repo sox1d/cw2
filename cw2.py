@@ -77,7 +77,7 @@ class Draw(QMainWindow):
         self.update()
 
     def drow_circle(self, qp):
-        qp.setBrush(QColor(choice(range(0, 255)), choice(range(0, 255)), choice(range(0, 255))))
+        qp.setBrush(QColor(255, 255, 0))
         r = choice(range(10, 100))
         qp.drawEllipse(QPointF(300, 300), r, r)
 
